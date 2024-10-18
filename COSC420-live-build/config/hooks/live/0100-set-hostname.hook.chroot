@@ -1,0 +1,6 @@
+ #!/bin/sh
+RANDOM_NUMBER=$(shuf -i 100-999 -n 1)
+
+HOSTNAME="live-worker-$RANDOM_NUMBER"
+echo $HOSTNAME > /etc/hostname
+hostname $HOSTNAME

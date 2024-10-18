@@ -1,0 +1,11 @@
+htop
+libopenmpi-dev
+nfs-common
+build-essential
+openssh-server
+iperf
+nmap
+lm-sensors
+parallel
+sshpass
+live-build
