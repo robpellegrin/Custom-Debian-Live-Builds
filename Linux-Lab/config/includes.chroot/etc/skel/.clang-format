@@ -1,0 +1,11 @@
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+ColumnLimit: 80
+AccessModifierOffset: -3
+AlignConsecutiveDeclarations: false
+AllowShortLoopsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
+BreakBeforeBinaryOperators: All
+CommentPragmas:  '^-\*-,^\*-,^\s-\*-,\s-\*-,^\s-\*'

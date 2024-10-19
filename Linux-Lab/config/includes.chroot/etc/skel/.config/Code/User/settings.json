@@ -1,0 +1,102 @@
+{
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }
+    ],
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "inference.model": "codellama:13b-code-q6_K",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "git.autofetch": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+    "editor.fontFamily": "'Cascadia Code', monospace",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[latex]": {
+        "editor.formatOnPaste": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "editor.cursorStyle": "block",
+    "latex-workshop.linting.chktex.enabled": true,
+    "latex-workshop.latex.outDir": "%DIR%/latex-build",
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-pdf",
+                "-outdir=%DIR%",
+                "-auxdir=%DIR%/latex-build",
+                "%DOC%"
+            ],
+            "env": {}
+        }
+    ],
+    "latex-workshop.latex.recipe.default": "latexmk",
+    "git.ignoreMissingGitWarning": true,
+    "window.customTitleBarVisibility": "never",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.colorCustomizations": {
+        "statusBarItem.remoteBackground": "#007ACC",
+        "statusBarItem.remoteForeground": "#ffffff"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "editor.renderWhitespace": "trailing",
+    "editor.lightbulb.enabled": "off",
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    // "foreground": "#57A64A" // C++ Green
+                    "foreground": "#2ECC71" // Teal Green
+                },
+            }
+        ]
+    },
+    "latex-workshop.latexindent.args": [
+        "-c",
+        "%DIR%/",
+        "%TMPFILE%",
+        "-y=defaultIndent: '%INDENT%'",
+        "-m"
+    ],
+    "latex-workshop.latexindent.path": "/workspaces/LaTex/latexindent",
+}

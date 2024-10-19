@@ -1,0 +1,14 @@
+kde-plasma-desktop
+linux-headers-amd64
+nvidia-driver firmware-misc-nonfree
+git
+neofetch
+htop
+python3.11-venv
+python3-pip
+firefox-esr
+vim
+tmux
+tar
+7zip
+fonts-firacode
