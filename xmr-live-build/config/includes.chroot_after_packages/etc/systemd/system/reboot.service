@@ -1,0 +1,6 @@
+ [Unit]
+ Descriptio=Reboot the system
+
+ [Service]
+ Type=oneshot
+ ExecStart=/sbin/shutdown -r now

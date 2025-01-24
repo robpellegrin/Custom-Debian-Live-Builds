@@ -1,0 +1,9 @@
+[Unit]
+Description=Time to reboot machine automatically Mon..Fri @ 8AM
+
+[Timer]
+OnCalendar=Mon..Fri 08:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
