@@ -4,3 +4,7 @@ live-config-systemd
 systemd-sysv
 ntpdate
 htop
+pciutils
+git
+neovim
+

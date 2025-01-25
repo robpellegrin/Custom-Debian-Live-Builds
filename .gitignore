@@ -1,1 +1,5 @@
 *.iso
+live-image*
+cache/
+xmr-live-build/chroot*
+xmr-live-build/binary*
