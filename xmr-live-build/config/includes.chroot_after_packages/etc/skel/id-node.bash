@@ -21,8 +21,9 @@ elif ip a | grep -i "brd 131.118.200.255" &> /dev/null; then
 fi
 
 # Update config file with new ID only if a value for id was set.
-if [ ! -z "$id" ]; then
-  sed "s/Portable/$id/" ~/xmrig/config.json
+if [ "$id" != "Portable" ]; then
+  sed -i.bak "s/Portable/$id/" ~/xmrig/config.json
+  echo "ID set to: $id"
+else
+  echo "ID set to: Portable"
 fi
-
-echo "ID set to: $id"
