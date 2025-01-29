@@ -9,6 +9,8 @@ sudo timedatectl set-timezone America/New_York
 
 ~/id-node.bash
 
+~/update-xmrig-config.bash
+
 sleep 5
 
 ~/disable-tty.bash
